@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>audiovideo</title>
+</head>
+<body>
+    <p>audio <br>
+    
+        <audio src="audio.ogg" controls muted></audio>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            <source src="audio.aac" type="audio/aac">
+
+        </audio>
+    </p>
+
+    <p>video <br>
+        <video autoplay loop muted>
+            <source src="video.ogv" type="video/ogv">
+                <track default src="video.vtt" kind="subtitles" srclang="ru">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+
+        <video src="video.mp4" autoplay loop muted>
+            <track default src="video.vtt" kind="subtitles" srclang="ru">
+        </video> 
+     
+    </p>
+</body>
+</html>
